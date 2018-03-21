@@ -2,4 +2,7 @@
 /application/config/constants.php
 
 .htaccess
-.index.php
+.settings/*
+.buildpath
+/application/ci_session/*
+/home/ci_session/*
