@@ -77,7 +77,7 @@ $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;dbname=bestbofang',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'tcibao2017',
+	'password' => '123456',
 	'database' => 'bestbofang',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',

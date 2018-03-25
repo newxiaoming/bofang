@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -20,19 +21,18 @@
     <meta name="renderer" content="webkit">
 
     <title>广州市美室设计制作有限公司</title>
+    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="/assets/uikit/dist/css/uikit.css" />
+    <!-- UIkit JS -->
+    <script src="/assets/uikit/dist/js/uikit.min.js"></script>
+    <script src="/assets/uikit/dist/js/uikit-icons.min.js"></script>
 
-    <link rel="stylesheet" href="http://hkmax.net/templates/specialty/style/core.css" />
-    <link rel="stylesheet" href="http://hkmax.net/templates/specialty/style/style.css" />
-    <script type="text/javascript" src="http://hkmax.net/templates/specialty/script/jquery.js"></script>
-    <script>
-          var _hmt = _hmt || [];
-          (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?cf680986e5a7a795f1afaf07fc6ebf6d";
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(hm, s);
-          })();
-     </script>
+    <link rel="stylesheet" href="/assets/css/core.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/addon.css" />
+    <script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
+    
 </head>
 
 <body>
@@ -99,8 +99,27 @@
             })
         </script>
     </div>
+    
     <!--pc首页banner-->
-        <div class="site-banner g-xs-hidden g-sm-hidden" style="background-image: url('http://hkmax.net/upfile/2017/11/20171120151937_336.jpg')"></div>
+    	<div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true;ratio: 7:3;animation:scale;autoplay-interval:3000">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
+        <!--  <div class="site-banner g-xs-hidden g-sm-hidden" style="background-image: url('http://hkmax.net/upfile/2017/11/20171120151937_336.jpg')"></div>-->
     <!--mo banner-->
     <div class="mo-banner g-xs-show g-sm-show" style="background-image: url('http://hkmax.net/upfile/2017/10/20171025105717_572.jpg')"></div>
     
@@ -119,29 +138,9 @@
 
     <!--服务-->
     <div class="container service" id="service">
-        <div class="">
+        <div class="">
             <div class="g-col-md-12">
-                <div class="service-title">
-                    <span class="num">03</span>
-                    <span class="name">services</span>
-                </div>
-                <div class="service-icon">
-                    <div class="icon-box">
-                        <i class="icon" style="background-image: url('http://hkmax.net/upfile/2017/07/20170710094806_125.jpg')"></i>
-                            <p>branding</p>
-                    </div>
-                    <div class="icon-box">
-                        <i class="icon" style="background-image: url('upfile/2017/10/20171013152044_102.jpg')"></i>
-                        <p>design</p>
-                    </div>
-                    <div class="icon-box">
-                        <i class="icon" style="background-image: url('upfile/2017/10/20171013152058_858.jpg')"></i>
-                        <p>activity</p>
-                    </div>
-                </div>
-                <div class="service-desc">
-                    <p><span style="font-size: small; font-family: 黑体; color: #808080;">广州市美室设计制作有限公司创建于1993年，24年的品牌策划经验，以国际化团队、国际视野、创新理念，完成超过500例以上的成功案例。</span></p>
-<p><span style="font-family: 黑体; color: #808080; font-size: small;"><span style="color: #808080; font-family: 黑体;">无论是新品牌的创建，或是现有品牌的升级，MAX均可通过前瞻性的创意，及覆盖各行各业的品牌战略策划经验，</span>提供涵括品牌战略系统、品牌视觉形象系统、品牌营销推广等全方位品牌系统化服务，成就您梦想中的品牌。</span></p>                </div>
+                <img alt=" " src="/assets/images/about_02.png">
             </div>
 
         </div>
@@ -149,12 +148,21 @@
                     <div class="san-box san-box01 wow rotateIn" style="background-image: url('http://hkmax.net/upfile/2017/07/20170703145136_665.png');" data-id="26">
                 <img src="http://hkmax.net/templates/specialty/images/bottom.png" alt="" class="icon">
             </div>
-                        <div class="san-box san-box02 wow rotateIn" style="background-image: url('http://hkmax.net/upfile/2017/07/20170703145157_268.png');" data-id="27">
-                <img src="http://hkmax.net/templates/specialty/images/bottom.png" alt="" class="icon">
-            </div>
-                        <div class="san-box san-box03 wow rotateIn" style="background-image: url('http://hkmax.net/upfile/2017/07/20170703145206_351.png');" data-id="28">
-                <img src="http://hkmax.net/templates/specialty/images/bottom.png" alt="" class="icon">
-            </div>
+                        <div class="uk-child-width-1-2@s " uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title"></h3>
+                                <p>广告片</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">TIPESs</h3>
+                                <p>专题片</p>
+                            </div>
+                        </div>
+                        
+                    </div>
                         <div class="san-box san-box04 wow rotateIn" style="background-image: url('http://hkmax.net/upfile/2017/07/20170703145217_470.png');" data-id="29">
                 <img src="http://hkmax.net/templates/specialty/images/bottom.png" alt="" class="icon">
             </div>

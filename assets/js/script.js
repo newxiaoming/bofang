@@ -157,7 +157,7 @@ $(function () {
         }, 1000);
     });
 
-    $('#home-pop').find('.pop-mo-top').on('click', function () {
+    $('.home-pop').find('.pop-mo-top').on('click', function () {
         $(".pop-box").animate({
             scrollTop: 0
         }, 1000);
@@ -297,8 +297,8 @@ $(function () {
     }
 
     // 关闭弹框
-    $('#home-pop').find('.pop-close').on('click', function () {
-        $('#home-pop').css({
+    $('.home-pop').find('.pop-close').on('click', function () {
+        $('.home-pop').css({
             visibility: 'hidden'
         });
         $('body').removeClass('noscroll');
@@ -308,8 +308,8 @@ $(function () {
         }
     });
 
-    $('#home-pop').find('.pop-mo-close').on('click', function () {
-        $('#home-pop').css({
+    $('.home-pop').find('.pop-mo-close').on('click', function () {
+        $('.home-pop').css({
             visibility: 'hidden'
         });
         $('body').removeClass('noscroll');

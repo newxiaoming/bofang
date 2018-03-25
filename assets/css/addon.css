@@ -1,0 +1,30 @@
+/* 地图模块*/
+.company {
+	margin-bottom: 50px;
+	line-height: 1.1rem
+}
+
+.comany-model {
+	margin-left: 43px; 
+}
+
+.my-topics {
+	position: relative;
+}
+.my-red {
+	background-color: red;
+}
+.clear {
+	clear: both;
+}
+.my-width {
+}
+
+.my-mudel {
+	float: left;
+	width: 263px;
+	height: 84px;
+	margin: 0 9px;
+	font-size: 18px;
+	font-weight: bold;
+}
