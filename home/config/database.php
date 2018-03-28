@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;dbname=bestbofang',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '123456',
-	'database' => 'bestbofang',
-	'dbdriver' => 'pdo',
+//	'dsn'	=> 'mysql:host=localhost;dbname=hdm427764568_db',
+	'hostname' => 'hdm427764568.my3w.com',
+	'username' => 'hdm427764568',
+	'password' => 'bofang147',
+	'database' => 'hdm427764568_db',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

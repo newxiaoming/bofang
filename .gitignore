@@ -6,6 +6,4 @@
 .buildpath
 /application/ci_session/*
 /home/ci_session/*
-!/assets/uikit/dist/*
-/assets/uikit/*
 /assets/adimages/*
